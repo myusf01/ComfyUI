@@ -1312,6 +1312,7 @@ class LoadImage:
     CATEGORY = "image"
 
     RETURN_TYPES = ("IMAGE", "MASK")
+    
     FUNCTION = "load_image"
     def load_image(self, image):
         image_path = folder_paths.get_annotated_filepath(image)
